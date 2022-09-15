@@ -47,7 +47,8 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px;
+    max-width: 1140px;   /* Correction */
+    width: 100vw;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -73,6 +74,8 @@ img {
 /* HEADER */
 .site-header {
     margin-top: 3rem;
+    
+   
 }
 
 /* LESSONS SECTION */
@@ -87,6 +90,7 @@ img {
 
 /* STEPS SECTION */
 .steps {
+    
     margin: 3rem 0;
     padding: 3rem 0;
     color: #232946;
@@ -100,6 +104,7 @@ img {
 
 .steps .col {
     width: calc(100% / 3);
+    
 }
 
 .steps .col img {

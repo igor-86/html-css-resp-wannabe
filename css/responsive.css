@@ -1,0 +1,49 @@
+
+/* My Responsive CSS Style */
+/* TABLET */
+
+@media screen and (max-width:768px) {
+    /* General styles */
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+/* _______________________ */
+
+
+
+
+
+/* MOBILE */
+
+@media screen and (max-width:480px) {
+    /* Layout */
+    .row{
+        flex-direction: column;
+        gap: 50px 0px;
+    }
+    /* Lesson Section */
+    .lessons .col {
+        width: 100%;
+    }
+    /* Steps section */
+    .steps .col {
+        width:100%;
+    }
+    /* Why us section */
+    .why-us .col-left {
+        width: 100%;
+    }
+    .col-left > img{
+        transform: scale(0.9);
+    }
+    .why-us .col-right {
+        width: 100%;
+    }
+}
+
+/* _____________________ */
